@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Github, Linkedin, Mail, ExternalLink, ChevronDown, Code2, Database, Cloud, Briefcase, User, FileText, ArrowRight, Zap, Target } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, ExternalLink, ChevronDown, Code2, Database, Cloud, Briefcase, ArrowRight, Zap } from 'lucide-react';
 
-export default function Portfolio() {
+export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [isScrolled, setIsScrolled] = useState(false);
