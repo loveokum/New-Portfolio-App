@@ -3,7 +3,8 @@
   "outputDirectory": "build",
   "devCommand": "npm start",
   "framework": "create-react-app",
-  "routes": [
+  "routes": 
+  [
     {
       "src": "^/(?P<path>.*)$",
       "dest": "/index.html"
